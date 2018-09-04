@@ -43,5 +43,7 @@ def using_delete(array, string)
 end
 
 def using_delete_at(arr, n)
-  arr.delete_at(arr[n])
+  arr.delete_at(n)
 end
+
+def
