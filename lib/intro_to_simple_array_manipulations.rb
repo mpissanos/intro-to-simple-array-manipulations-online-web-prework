@@ -41,3 +41,4 @@ end
 def using_delete(array, string)
   array.detect(|i|i == string)
 end
+end
