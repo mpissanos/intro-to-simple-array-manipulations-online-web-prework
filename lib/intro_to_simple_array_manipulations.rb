@@ -39,4 +39,5 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  array.detect(|string| delete)
+  array.detect(|i|i == string)
+end
