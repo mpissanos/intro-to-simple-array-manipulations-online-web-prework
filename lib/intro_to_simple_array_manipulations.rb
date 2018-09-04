@@ -41,3 +41,7 @@ end
 def using_delete(array, string)
   array.delete_if {|i| i == string}
 end
+
+def using_delete_at(arr, n)
+  arr.delete_at(arr[n])
+end
